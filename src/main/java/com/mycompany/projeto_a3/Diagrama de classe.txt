@@ -1,0 +1,53 @@
++------------------+
+|    Projeto       |
++------------------+
+| - tecla: Scanner |
++------------------+-----+
+| + main(String[]): void |
++------------------------+
+            |
+            | usa
+            v
++----------------------+
+|    Banco_Do_Jogo     |
++----------------------+-------+
+| - jogadores: List<Jogadores> |
+| - ranqueados: List<Jogadores>|
++-----------------------+------+-----------+
+| + adicionarJogador(Jogadores): void      |
+| + registrarVitoria(String): void         |		
+| + registrarDerrota(String): void         |
+| + mostrarPlacarGeral(): void             |
+| + listarJogadores(): void                |
+| + ordenarPorVitorias(): void             |
++-----------------------+------------------+
+            |
+            | contém vários
+            v
++------------------------+
+|      Jogadores         |
++------------------------+
+| - nome: String         |
+| - vitorias: int        |
+| - derrotas: int        |
++------------------------+-----+
+| + getNome(): String          |
+| + getVitorias(): int         |
+| + getDerrotas(): int         |
+| + adicionarVitoria(): void   |
+| + adicionarDerrota(): void   |
+| + equals(Object): boolean    |
++------------------------------+
+
+
++------------------------+
+|      Tabuleiro         |
++------------------------+
+| - tamanho: int         |
+| - campo: char[][]      |
++------------------------+-----+
+| + Tabuleiro(int)             |
+| + getTamanho(): int          |
+| + getCampo(): char[][]       |
+| + preencherAgua(): void      |
++------------------------------+
