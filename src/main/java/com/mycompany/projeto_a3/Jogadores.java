@@ -387,7 +387,7 @@ class Maquina extends Jogadores {
         System.out.println("Maquina atacou: " + (char)('A' + linha) + "" + (coluna + 1));
 
         if (acertou) {
-            System.out.println("A mquina ACERTOU um navio!");
+            System.out.println("A maquina ACERTOU um navio!");
             inimigo.getcampo()[linha][coluna] = 'X';
         } else {
             System.out.println("A maquina acertou a agua.");
