@@ -5,9 +5,6 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-// Versão comentada completa da v2 — Jogadores, Jogador1 e Maquina
-// Comentários explicativos adicionados em todas as partes importantes
-
 public abstract class Jogadores {
     public String nome; // nome do jogador (público)
     protected int frotas[]; // vetor com os tamanhos dos navios (visível para subclasses)

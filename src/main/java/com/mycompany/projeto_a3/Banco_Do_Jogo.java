@@ -1,6 +1,6 @@
-// ===============================================
-// BANCO_DO_JOGO.JAVA — COMPLETAMENTE DOCUMENTADO
-// ===============================================
+// =====================
+// BANCO_DO_JOGO.JAVA
+// =====================
 
 package com.mycompany.projeto_a3;
 
