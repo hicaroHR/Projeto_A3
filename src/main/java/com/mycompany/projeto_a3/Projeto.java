@@ -1,3 +1,11 @@
+/*
+* Hicaro Pires Pereira | RA: 825231381
+* Ricardo de Castro Verneque Maia | RA: 822166660
+* Jamison dias da silva | 7225221277
+* Gabriel Vieira de Melo Cunha | RA: 82528402
+* William Jorge Brait Silva | RA: 825222389
+* */
+
 package com.mycompany.projeto_a3;
 
 import java.util.Scanner; // Importa a classe Scanner para leitura pelo teclado
